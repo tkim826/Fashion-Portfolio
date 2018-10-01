@@ -429,7 +429,7 @@
         <!--SKIL CHART BOTTOM-->
         <div class="row padded-row">
           <div class="col-sm-3 col-xs-12">
-            <ul class="list-unstyled list-progress">
+            <ul class="list-unstyled centered list-progress">
               <li class="slideleft">
                 <div class="text-uppercase color-dark title ">
                   <span>UX Method</span>
@@ -466,7 +466,7 @@
 
 
           <div class="col-sm-3 col-xs-12">
-            <ul class="list-unstyled list-progress">
+            <ul class="list-unstyled  centered list-progress">
               <li class="slideleft">
                 <div class="text-uppercase color-dark title ">
                   <span>Skills</span>
@@ -508,7 +508,7 @@
 
 
           <div class="col-sm-3 col-xs-12">
-            <ul class="list-unstyled list-progress">
+            <ul class="list-unstyled centered list-progress">
               <li class="slideleft">
                 <div class="text-uppercase color-dark title ">
                   <span>Skills</span>
@@ -547,7 +547,7 @@
           </div>
 
           <div class="col-sm-3 col-xs-12">
-            <ul class="list-unstyled list-progress">
+            <ul class="list-unstyled centered list-progress">
               <li class="slideleft">
                 <div class="text-uppercase color-dark title ">
                   <span>UX Method</span>
@@ -1086,6 +1086,10 @@
   <!--=====================================================-->
   <!--configuration template-->
   <script src="assets/theme/js/theme.js"></script>
+
+
+
+
   <script>  window.sr = ScrollReveal();
 
 
@@ -1097,10 +1101,10 @@
     // });
 
     sr.reveal('.slideright', {
-      duration: 2500,
+      duration: 1500,
       origin: 'right',
       distance: '300px',
-      viewFactor: .8
+      viewFactor: .5
     });
 
     // sr.reveal('.slideright', {
@@ -1110,10 +1114,10 @@
     //     });
 
     sr.reveal('.slideleft', {
-      duration: 2500,
+      duration: 1500,
       origin: 'left',
       distance: '300px',
-      viewFactor: .8
+      viewFactor: .5
     });
 
 
@@ -1124,22 +1128,26 @@
     ScrollReveal().reveal('.maintitle', {
       scale: 0.4,
       duration: 2500,
-      viewFactor: 1
+      viewFactor: .5
     });
 
-
+    ScrollReveal().reveal('.animategrow', {
+      scale: 0.4,
+      duration: 1200,
+      viewFactor: .4
+    });
 
     // opacity 0 to 1 on scroll
-    // ScrollReveal().reveal('.maintitle', {
-    //   distance: '0px',
-    //   opacity: 0,
-    //   duration: 2500,
-    //   viewFactor: 1
-    // });
+    ScrollReveal().reveal('.reveal', {
+      distance: '0px',
+      opacity: 0,
+      duration: 1500,
+      viewFactor: .5
+    });
 
     sr.reveal('.slidebottom', {
-      duration: 2000,
-      delay: 2000,
+      duration: 1000,
+      delay: 800,
       origin: 'bottom',
       distance: '20px'
 

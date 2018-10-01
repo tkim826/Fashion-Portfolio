@@ -28,6 +28,10 @@ This files contents are outlined below.
 /*============================
      01. BODY
 ============================*/
+html.sr {
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
 body {
   background: #ffffff;
   color: #7d7d7d;
@@ -1267,7 +1271,7 @@ textarea.form-flat {
   -ms-transition: all 0.8s ease 0s;
   bottom: 0;
   right: 0;
-  padding: 40px;
+  padding: 10px 30px 10px 5px;
   text-align: right;
 }
 /* .my-profile .my-pict .overfly:hover {
@@ -1299,6 +1303,15 @@ textarea.form-flat {
     max-width: 100%;
   }
 }
+@media (max-width: 575.98px) {
+  .text-botttom h2 {
+    font-size: 2em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+}
+
 /*== SERVICES ==*/
 .services {
   margin: 0;
@@ -1903,6 +1916,10 @@ a {
   width: 470px;
   padding: 60px 40px 60px 0;
   float: right;
+}
+
+.card-body h4 {
+  margin-top: 27px;
 }
 @media (max-width: 1024px) {
   .contact-area .form-contact-area {
