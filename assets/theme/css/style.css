@@ -1700,20 +1700,37 @@ textarea.form-flat {
   padding: 0.5%;
   /* position: relative; */
 }
-
-@media (min-width: 1209px) {
+@media (max-width: 2500px) {
   .wireframe {
-    height: 450px;
-  }
-}
-@media (min-width: 1650px) {
-  .wireframe {
-    height: 50px;
+    min-height: 600px;
   }
 }
 
+@media (max-width: 1650px) {
+  .wireframe {
+    min-height: 450px;
+  }
+}
+@media (max-width: 1209px) {
+  .wireframe {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wireframe {
+    min-height: 250px;
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wireframe {
+    min-height: 150px;
+    max-height: 250px;
+  }
+}
 .wireframe-image {
-  /* position: absolute; */
   width: 100%;
 }
 .wireframe.background-dark {
