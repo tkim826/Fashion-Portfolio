@@ -469,6 +469,7 @@ blockquote {
   -o-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
 }
+
 .error {
   color: #bd2929;
   font-weight: 400;
@@ -1461,21 +1462,36 @@ textarea.form-flat {
   padding: 0 5px 0 5px;
   padding-bottom: 30px;
 }
+
+.tall .box {
+  text-align: center;
+  border: 1px solid transparent;
+  height: 430px;
+  padding: 0 5px 0 5px;
+  padding-bottom: 30px;
+}
 .skill.top .box {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .skill.bottom .box {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .row .padded-row {
   margin: 10%;
 }
 @media (max-width: 768px) {
   .skill .box {
-    padding-bottom: 30px !important;
-    padding-top: 30px !important;
+    padding: 20px !important;
     border: 0 !important;
+    height: auto;
+  }
+
+  .tall .box {
+    padding: 20px !important;
+
+    border: 0 !important;
+    height: auto;
   }
 }
 .chart {
