@@ -569,6 +569,7 @@ blockquote {
 .menu-area .main-nav > li > a:hover {
   color: #000000;
   outline: none;
+  transform: translateY(-3px);
 }
 .menu-area .main-nav > li + li:before {
   color: #323232;
@@ -583,6 +584,7 @@ blockquote {
 .menu-area .main-nav.nav > li > a:hover,
 .menu-area .main-nav.nav > li > a:focus {
   background: transparent;
+  transform: translateY(-3px);
 }
 .menu-area .main-nav.no-space > li + li:before {
   content: '';
@@ -596,6 +598,7 @@ blockquote {
 }
 .menu-area.nav-white-bg .main-nav > li > a:hover {
   color: #000000;
+  transform: translateY(-3px);
 }
 .menu-area.nav-white-bg .main-nav > li.active > a {
   color: #000000;
@@ -632,6 +635,7 @@ ul.breadcrumb.main-nav.nav {
   }
   .menu-area .main-nav > li > a:hover {
     color: #000000;
+    transform: translateY(-3px);
   }
   .menu-area .main-nav > li.active > a {
     color: #000000;
@@ -692,6 +696,7 @@ ul.breadcrumb.main-nav.nav {
 }
 .btn-flat-solid.btn-default:hover {
   background-color: #ebebeb;
+  transform: translateY(-3px);
 }
 .btn-flat-solid.btn-link {
   color: #000000;
@@ -707,13 +712,19 @@ ul.breadcrumb.main-nav.nav {
   color: #ffffff;
   background-color: #323232;
 }
-.btn-flat-solid.primary-btn:hover,
+,
 .btn-flat-solid.primary-btn:focus {
   color: #ffffff;
   background-color: #000000;
+}
+
+.btn-flat-solid.primary-btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+
   transform: translateY(-3px);
 }
-.btn-flat-solid:hover,
+
 .btn-flat-solid:focus {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
@@ -721,6 +732,16 @@ ul.breadcrumb.main-nav.nav {
   -o-box-shadow: none !important;
   -ms-box-shadow: none !important;
   outline: none;
+  transform: translateY(-3px);
+}
+.btn-flat-solid:hover {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  outline: none;
+  transform: translateY(-3px);
 }
 .btn-flat-solid.btn-icon {
   min-width: 35px;
@@ -808,11 +829,13 @@ ul.breadcrumb.main-nav.nav {
   background-color: transparent;
 }
 .btn-flat-line.primary-btn.clicked,
-.btn-flat-line.primary-btn:hover,
 .btn-flat-line.primary-btn:focus {
   color: #000000;
   border-color: transparent;
   background-color: #ffffff;
+}
+
+.btn-flat-line.primary-btn:hover {
   transform: translateY(-3px);
 }
 .btn-flat-line.btn-icon {
@@ -1458,7 +1481,7 @@ textarea.form-flat {
 .skill .box {
   text-align: center;
   border: 1px solid transparent;
-  height: 275px;
+  height: 195px;
   padding: 5px 5px 5px 5px;
   padding-bottom: 30px;
 }
