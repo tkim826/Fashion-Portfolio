@@ -1459,15 +1459,15 @@ textarea.form-flat {
   text-align: center;
   border: 1px solid transparent;
   height: 275px;
-  padding: 0 5px 0 5px;
+  padding: 5px 5px 5px 5px;
   padding-bottom: 30px;
 }
 
 .tall .box {
   text-align: center;
   border: 1px solid transparent;
-  height: 430px;
-  padding: 0 5px 0 5px;
+  height: 404px;
+  padding: 5px 5px 5px 5px;
   padding-bottom: 30px;
 }
 .skill.top .box {
@@ -1484,14 +1484,14 @@ textarea.form-flat {
   .skill .box {
     padding: 20px !important;
     border: 0 !important;
-    height: auto;
+    height: auto !important;
   }
 
   .tall .box {
     padding: 20px !important;
 
     border: 0 !important;
-    height: auto;
+    height: auto !important;
   }
 }
 .chart {
@@ -2062,7 +2062,7 @@ a {
   -moz-border-radius: 0 !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
-  border-radius: 0 !important;
+  border-radius: 10px !important;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
