@@ -1692,7 +1692,8 @@ textarea.form-flat {
 
 .wireframe {
   width: 95%;
-  height: 375px;
+  min-height: 375px;
+  max-height: 375px;
   overflow: scroll;
   text-align: center;
 
@@ -1703,12 +1704,14 @@ textarea.form-flat {
 @media (max-width: 2500px) {
   .wireframe {
     min-height: 600px;
+    max-height: 600px;
   }
 }
 
 @media (max-width: 1650px) {
   .wireframe {
     min-height: 450px;
+    max-height: 450px;
   }
 }
 @media (max-width: 1209px) {
@@ -1720,7 +1723,7 @@ textarea.form-flat {
 @media (max-width: 900px) {
   .wireframe {
     min-height: 250px;
-    max-height: 350px;
+    max-height: 250px;
   }
 }
 
