@@ -83,8 +83,9 @@
                   <ul class="breadcrumb main-nav no-space">
                     <li class="link-inpage">
                       <a href="#contact" id="hireme-tab" class="link-inpage">
-                        <i class="fas fa-hand-rock"></i> Hire Me Now</a>
+                        <img src="favicon.png" alt="my logo"> Hire Me Now</a>
                     </li>
+
                   </ul>
                 </div>
                 <div class="col-md-6">
@@ -299,7 +300,6 @@
     <!--End wrapper page-->
 
 
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="assets/plugins/jquery.js"></script>
     <script src="assets/plugins/bootstrap-3.3.1/js/bootstrap.min.js"></script>
@@ -329,6 +329,71 @@
     <!--=====================================================-->
     <!--configuration template-->
     <script src="assets/theme/js/theme.js"></script>
+
+    <script>  window.sr = ScrollReveal();
+
+
+
+      // sr.reveal('.fromtop', {
+      //   duration: 1000,
+      //   origin: 'top',
+      //   distance: '300px'
+      // });
+
+      sr.reveal('.slideright', {
+        duration: 1500,
+        origin: 'right',
+        distance: '300px',
+        viewFactor: .5
+      });
+
+      // sr.reveal('.frombottom', {
+      //       duration: 1000,
+      //       origin: 'bottom',
+
+      //     });
+
+      sr.reveal('.slideleft', {
+        duration: 1500,
+        origin: 'left',
+        distance: '300px',
+        viewFactor: .5
+      });
+
+
+
+
+      // scale up
+
+      ScrollReveal().reveal('.maintitle', {
+        scale: 0.4,
+        duration: 2500,
+        viewFactor: .5
+      });
+
+      ScrollReveal().reveal('.animategrow', {
+        scale: 0.4,
+        duration: 1200,
+        viewFactor: .4
+      });
+
+      // opacity 0 to 1 on scroll
+      ScrollReveal().reveal('.reveal', {
+        distance: '0px',
+        opacity: 0,
+        duration: 1500,
+        viewFactor: .5
+      });
+
+      sr.reveal('.slidebottom', {
+        duration: 1000,
+        delay: 800,
+        origin: 'bottom',
+        distance: '20px'
+
+
+      });
+    </script>
   </body>
 
 </html>
