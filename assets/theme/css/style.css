@@ -583,8 +583,10 @@ blockquote {
 }
 .menu-area .main-nav.nav > li > a:hover,
 .menu-area .main-nav.nav > li > a:focus {
+  text-decoration: none;
   background: transparent;
   transform: translateY(-3px);
+  color: #0000;
 }
 .menu-area .main-nav.no-space > li + li:before {
   content: '';
@@ -617,6 +619,11 @@ blockquote {
 ul.breadcrumb.main-nav.nav {
   padding-left: 10px;
   padding-right: 10px;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  transform: translateY(-3px);
 }
 
 @media (min-width: 1030px) {
@@ -1638,6 +1645,8 @@ textarea.form-flat {
 .box-work .work-preview .hover .link-btns a:hover {
   color: #000000;
   background: #ffffff;
+  text-decoration: none;
+  transform: translatex(-3px);
 }
 .box-work .work-preview:hover .hover .link-btns {
   opacity: 100;
