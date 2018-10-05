@@ -275,6 +275,10 @@ h6 {
   border-radius: 10px !important;
   margin-bottom: 30px;
 }
+
+.icon-med {
+  font-size: 20px;
+}
 blockquote {
   margin-bottom: 30px;
   font-size: 16px;
@@ -557,7 +561,7 @@ blockquote {
   font-weight: 700;
   color: #323232;
   outline: none;
-  font-size: 14px;
+  font-size: 14.5px;
   transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
