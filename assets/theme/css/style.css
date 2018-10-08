@@ -1492,15 +1492,14 @@ textarea.form-flat {
 .skill .box {
   text-align: center;
   border: 1px solid transparent;
-  height: 195px;
+  height: 215px;
   padding: 5px 5px 5px 5px;
-  padding-bottom: 30px;
 }
 
 .tall .box {
   text-align: center;
   border: 1px solid transparent;
-  height: 404px;
+  height: 424px;
   padding: 20px 5px 5px 5px;
   padding-bottom: 30px;
 }
@@ -1509,7 +1508,6 @@ textarea.form-flat {
 }
 .skill.bottom .box {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 .row .padded-row {
   margin: 10%;
