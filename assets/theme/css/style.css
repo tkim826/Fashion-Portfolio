@@ -1727,11 +1727,12 @@ textarea.form-flat {
 }
 
 .phone-mockup {
-  max-width: 100%;
+  max-width: 98%;
 }
 .phonecontainer {
   text-align: center;
-  padding: 0 1%;
+  /* padding: 0 %; */
+  margin-bottom: 20px;
 }
 
 .phoneoutline {
@@ -1742,7 +1743,7 @@ textarea.form-flat {
 }
 
 .wireframe {
-  width: 95%;
+  width: 100%;
   min-height: 375px;
   max-height: 375px;
   overflow: scroll;
@@ -1768,31 +1769,41 @@ textarea.form-flat {
 @media (max-width: 1209px) {
   .wireframe {
     min-height: 400px;
+    max-height: 400px;
   }
 }
 
 @media (max-width: 900px) {
   .wireframe {
-    min-height: 250px;
-    max-height: 250px;
+    min-height: 255px;
+    max-height: 255px;
   }
 }
 
-@media (max-width: 500px) {
-  .wireframe {
-    min-height: 150px;
-    max-height: 250px;
-  }
-}
 .wireframe-image {
   width: 100%;
 }
+
 .wireframe.background-dark {
   background-color: grey;
   color: white;
   padding-top: 40%;
   font-size: 0.25em;
   line-height: 0.25em;
+  overflow: hidden;
+}
+
+@media (max-width: 500px) {
+  .wireframe {
+    min-height: 255px;
+    max-height: 255px;
+  }
+  .wireframe.background-dark {
+    padding-top: 13%;
+  }
+  body {
+    font-size: 14px;
+  }
 }
 .research-pic {
   max-width: 100%;
