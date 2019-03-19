@@ -47,6 +47,10 @@ body .wrapper {
   opacity: 0;
   position: relative;
 }
+
+.zindex5 {
+  z-index: 15;
+}
 /*============================
      02. TYPOGRAPGY
 ============================*/
@@ -1408,7 +1412,30 @@ textarea.form-flat {
 .list-education li .number {
   position: absolute;
   font-style: italic;
-  right: -128px;
+  right: -364px;
+  left: inherit;
+  padding-bottom: 10px;
+  font-size: 70px;
+  top: 10px;
+  color: #ebebeb;
+  line-height: 70px;
+}
+
+.list-employment li:nth-child(odd) .number,
+.list-education li:nth-child(odd) .number.singleyear {
+  left: -184px;
+  right: inherit;
+}
+
+.list-employment li:nth-child(odd) .number.current {
+  left: -464px;
+  right: inherit;
+}
+
+.list-education li .number.singleyear {
+  position: absolute;
+  font-style: italic;
+  right: -184px;
   left: inherit;
   padding-bottom: 10px;
   font-size: 70px;
@@ -1434,7 +1461,7 @@ textarea.form-flat {
 }
 .list-employment li:nth-child(odd) .number,
 .list-education li:nth-child(odd) .number {
-  left: -128px;
+  left: -364px;
   right: inherit;
 }
 .list-employment li:nth-child(odd) .desc,
@@ -2171,6 +2198,7 @@ a {
   position: relative;
   border-top: 1px solid #505050;
   border-bottom: 5px solid #505050;
+  z-index: 5;
 }
 .main-footer .folow-me {
   text-align: center;
