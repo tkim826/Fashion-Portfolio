@@ -1922,6 +1922,7 @@ textarea.form-flat {
   border-bottom: 1px solid #ebebeb;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  margin-top: 0.3em;
 }
 .post-meta-pad-bottom {
   font-size: 16px;
